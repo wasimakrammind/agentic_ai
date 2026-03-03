@@ -1,0 +1,36 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.xlsx
+*.parquet
+!tests/fixtures/*.csv
+!tests/fixtures/*.json
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
